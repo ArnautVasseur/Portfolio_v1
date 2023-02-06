@@ -6,8 +6,8 @@
         <p class="footer-text uppercase text-[#aaa] text-[1.2em] xl:text-[3em] text-center">Étudiant en MMI / Développeur Web Front-End</p>
         <hr class="h-[1px] border bg-white my-10" />
         <div class="flex justify-center items-center align-middle gap-20 xl:gap-40">
-            <i class="fa-brands fa-linkedin-in text-white text-[4em]"></i>
-            <i class="fa-brands fa-github text-white text-[4em]"></i>
+            <a href="https://www.linkedin.com/in/arnaut-vasseur-b18900225/"><i class="fa-brands fa-linkedin-in text-white text-[4em]"></i></a>
+            <a href="https://github.com/ArnautVasseur"><i class="fa-brands fa-github text-white text-[4em]"></i></a>
         </div>
         <hr class="h-[1px] border bg-white mt-10" />
     </div>
