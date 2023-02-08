@@ -18,15 +18,15 @@
                 <h3 class="text-[#aaa] text-[4em]" id="titre-14">e</h3>
             </div>
             <div class="flex">
-                <h4 class="text-[#666] text-[1.7em]">F</h4>
-                <h4 class="text-[#666] text-[1.7em]">r</h4>
-                <h4 class="text-[#666] text-[1.7em]">o</h4>
-                <h4 class="text-[#666] text-[1.7em]">n</h4>
-                <h4 class="text-[#666] text-[1.7em]">t</h4>
-                <h4 class="text-[#666] text-[1.7em]">-</h4>
-                <h4 class="text-[#666] text-[1.7em]">e</h4>
-                <h4 class="text-[#666] text-[1.7em]">n</h4>
-                <h4 class="text-[#666] text-[1.7em]">d</h4>
+                <h4 class="text-[#666] text-[1.7em]" id="categorie-1">F</h4>
+                <h4 class="text-[#666] text-[1.7em]" id="categorie-2">r</h4>
+                <h4 class="text-[#666] text-[1.7em]" id="categorie-3">o</h4>
+                <h4 class="text-[#666] text-[1.7em]" id="categorie-4">n</h4>
+                <h4 class="text-[#666] text-[1.7em]" id="categorie-5">t</h4>
+                <h4 class="text-[#666] text-[1.7em]" id="categorie-6">-</h4>
+                <h4 class="text-[#666] text-[1.7em]" id="categorie-7">e</h4>
+                <h4 class="text-[#666] text-[1.7em]" id="categorie-8">n</h4>
+                <h4 class="text-[#666] text-[1.7em]" id="categorie-9">d</h4>
             </div>
             <div class="flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg absolute bottom-28 border border-transparent hover:border-b-2 hover:border-b-white">
                 <a href="" class="">Voir le site</a>
@@ -255,9 +255,9 @@
 
 <!-- Animations Catégorie -->
 <style scoped>
-@keyframes -catégorie-1 {
+@keyframes -categorie-1 {
     0% {
-        translate: 0px -30px;
+        translate: 0px 20px;
         opacity: 0;
     }
     100%{
@@ -265,7 +265,119 @@
     }
 }
 
-#catégorie-1{
-    animation: ease-in-out -titre-1 0.5s;
+#categorie-1{
+    animation: ease-in-out -categorie-1 0.5s;
+}
+
+@keyframes -categorie-2 {
+    0% {
+        translate: 0px 20px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#categorie-2{
+    animation: ease-in-out -categorie-1 0.5s 0.1s;
+}
+
+@keyframes -categorie-3 {
+    0% {
+        translate: 0px 20px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#categorie-3{
+    animation: ease-in-out -categorie-1 0.5s .2s;
+}
+
+@keyframes -categorie-4 {
+    0% {
+        translate: 0px 20px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#categorie-4{
+    animation: ease-in-out -categorie-1 0.5s .3s;
+}
+
+@keyframes -categorie-5 {
+    0% {
+        translate: 0px 20px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#categorie-5{
+    animation: ease-in-out -categorie-1 0.5s .4s;
+}
+
+@keyframes -categorie-6 {
+    0% {
+        translate: 0px 20px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#categorie-6{
+    animation: ease-in-out -categorie-1 0.5s .5s;
+}
+
+@keyframes -categorie-7 {
+    0% {
+        translate: 0px 20px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#categorie-7{
+    animation: ease-in-out -categorie-1 0.5s .6s;
+}
+
+@keyframes -categorie-8 {
+    0% {
+        translate: 0px 20px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#categorie-8{
+    animation: ease-in-out -categorie-1 0.5s .7s;
+}
+
+@keyframes -categorie-9 {
+    0% {
+        translate: 0px 20px;
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#categorie-9{
+    animation: ease-in-out -categorie-1 0.5s .8s;
 }
 </style>
