@@ -10,10 +10,10 @@ module.exports = withAnimations({
   theme: {
     extend: {
       boxShadow:{
-          'simple_blue': '0 0 0 6px #39AFAF',
+
         },
       },
     },
-  plugins: [],
+    plugins: [],
 }
 );

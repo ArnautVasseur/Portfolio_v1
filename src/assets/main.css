@@ -21,7 +21,7 @@ hr{
     border: 0;
 }
 
-h1::selection, h2::selection, p::selection {
+h1::selection, h2::selection, h3::selection, h4::selection, p::selection, a::selection {
     color: white;
     background-color: #111;
 }

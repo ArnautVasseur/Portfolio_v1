@@ -1,5 +1,5 @@
 <template>
-    <div class="relative w-full h-[500px] bg-[#111] px-8 xl:px-16 my-8">
+    <div class="relative w-full h-[550px] bg-[#111] px-8 xl:px-16 mt-8">
         <hr class="h-[1px] border bg-white mb-10" />
         <p class="footer-text uppercase text-[#aaa] text-[2.5em] xl:text-[5em] text-center">Arnaut Vasseur</p>
         <hr class="h-[1px] border bg-white my-10" />
@@ -19,5 +19,3 @@
     background-color: #111;
 }
 </style>
-
-<!-- bg-gradient-to-r from-[#891f7e] to-[#39AFAF] -->

@@ -7,7 +7,7 @@ import Footer from "./components/Footer.vue";
   <div :class="isDark ? 'dark' : ''">
     <main class="bg-[#111]">
       <RouterView />
-      <Footer/>
+      <!-- <Footer/> -->
     </main>
   </div>
 </template>
