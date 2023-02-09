@@ -28,9 +28,9 @@
                 <h4 class="text-[#666] text-[1.7em]" id="categorie-8">n</h4>
                 <h4 class="text-[#666] text-[1.7em]" id="categorie-9">d</h4>
             </div>
-            <div class="flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg absolute bottom-28 border border-transparent hover:border-b-2 hover:border-b-white">
+            <div class="link flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg absolute bottom-28 border border-transparent hover:border-b-2 hover:border-b-white">
                 <a href="" class="">Voir le site</a>
-                <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                <i class="icon fa-sharp fa-solid fa-arrow-right"></i>
             </div>
         </div>
         <div class="box-images w-1/2 flex justify-center align-middle items-center m-20 -skew-x-6">
@@ -50,6 +50,11 @@
     height: 75%;
     width: 2px;
     transform: rotate(6deg);
+}
+
+.link:hover > .icon{
+    transform: translateX(5px);
+    transition-duration: 0.5s;
 }
 </style>
 
@@ -280,7 +285,7 @@
 }
 
 #categorie-2{
-    animation: ease-in-out -categorie-1 0.5s 0.1s;
+    animation: ease-in-out -categorie-2 0.5s 0.1s;
 }
 
 @keyframes -categorie-3 {
@@ -294,7 +299,7 @@
 }
 
 #categorie-3{
-    animation: ease-in-out -categorie-1 0.5s .2s;
+    animation: ease-in-out -categorie-3 0.5s .2s;
 }
 
 @keyframes -categorie-4 {
@@ -308,7 +313,7 @@
 }
 
 #categorie-4{
-    animation: ease-in-out -categorie-1 0.5s .3s;
+    animation: ease-in-out -categorie-4 0.5s .3s;
 }
 
 @keyframes -categorie-5 {
@@ -322,7 +327,7 @@
 }
 
 #categorie-5{
-    animation: ease-in-out -categorie-1 0.5s .4s;
+    animation: ease-in-out -categorie-5 0.5s .4s;
 }
 
 @keyframes -categorie-6 {
@@ -336,7 +341,7 @@
 }
 
 #categorie-6{
-    animation: ease-in-out -categorie-1 0.5s .5s;
+    animation: ease-in-out -categorie-6 0.5s .5s;
 }
 
 @keyframes -categorie-7 {
@@ -350,7 +355,7 @@
 }
 
 #categorie-7{
-    animation: ease-in-out -categorie-1 0.5s .6s;
+    animation: ease-in-out -categorie-7 0.5s .6s;
 }
 
 @keyframes -categorie-8 {
@@ -364,7 +369,7 @@
 }
 
 #categorie-8{
-    animation: ease-in-out -categorie-1 0.5s .7s;
+    animation: ease-in-out -categorie-8 0.5s .7s;
 }
 
 @keyframes -categorie-9 {
@@ -378,6 +383,6 @@
 }
 
 #categorie-9{
-    animation: ease-in-out -categorie-1 0.5s .8s;
+    animation: ease-in-out -categorie-9 0.5s .8s;
 }
 </style>

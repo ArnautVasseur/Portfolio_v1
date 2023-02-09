@@ -1,22 +1,10 @@
 <script setup>
 import Carrousel from '../components/Carrousel.vue';
+import Barchart from '../components/Barchart.vue';
 </script>
 
 <template>
-    <div>
+    <div class="">
         <Carrousel/>
     </div>
 </template>
-
-<script>
-export default {
-    data() {
-        return {
-            slide1:false,
-            slide2:false,
-            slide3:false,
-            slide4:false,
-        }
-    }
-}
-</script>
