@@ -33,7 +33,6 @@ import CarrouselItem4 from './CarouselSlides.vue/CarrouselItem-4.vue';
     height: 100%;
     bottom: 0;
     width: 2px;
-    transform: rotate(6deg);
 }
 
 .container-box::after {
@@ -44,7 +43,6 @@ import CarrouselItem4 from './CarouselSlides.vue/CarrouselItem-4.vue';
     height: 100%;
     bottom: 0;
     width: 2px;
-    transform: rotate(6deg);
 }
 </style>
 

@@ -20,16 +20,47 @@
                 <h4 class="text-[#666] text-[1.7em]" id="categorie-8">n</h4>
                 <h4 class="text-[#666] text-[1.7em]" id="categorie-9">d</h4>
             </div>
-            <div class="link flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg absolute bottom-28 border border-transparent hover:border-b-2 hover:border-b-white">
-                <a href="" class="">Voir le site</a>
-                <i class="icon fa-sharp fa-solid fa-arrow-right"></i>
+            <div @mouseover="mouseOver()" @mouseleave="mouseLeave()" class="link flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg absolute duration-500 bottom-28">
+                <a href="" class="w-48 h-16 flex flex-row items-center align-middle justify-between">
+                    <div id="BorderL" class="h-full w-[1px] bg-white"></div>
+                    <div class="flex flex-col justify-between items-center align-middle gap-10">
+                        <div id="BorderT" class="h-[1px] w-full bg-white"></div>
+                        <p class="linktext text-center">Voir le site</p>
+                        <div id="BorderB" class="h-[1px] w-full bg-white"></div>
+                    </div>
+                    <i id="icon" class="icon fa-sharp fa-solid fa-arrow-right"></i>
+                </a>
             </div>
         </div>
-        <div class="box-images w-1/2 flex justify-center align-middle items-center m-20 -skew-x-6">
-            <img src="../../assets/Renova.png" class="w-2/3 skew-x-6" alt="">
+        <div class="box-images w-1/2 flex justify-center align-middle items-center m-20">
+            <img src="../../assets/Renova.png" class="w-2/3 " alt="">
         </div>
     </div>
 </template>
+
+<script scoped>
+export default({
+    methods:{
+        mouseOver(){
+            document.getElementById("icon").style.transitionDuration ="300ms"
+            document.getElementById("BorderT").style.transitionDuration ="300ms"
+            document.getElementById("BorderL").style.transitionDuration ="300ms"
+            document.getElementById("BorderB").style.transitionDuration ="300ms"
+            document.getElementById("icon").style.scale ="1.5"
+            document.getElementById("BorderT").style.transform ="translateY(20px)"
+            document.getElementById("BorderL").style.transform ="translateX(30px)"
+            document.getElementById("BorderB").style.transform ="translateY(-20px)"
+        },
+        mouseLeave(){
+            document.getElementById("icon").style.scale ="1"
+            document.getElementById("BorderT").style.transform ="translateY(0px)"
+            document.getElementById("BorderL").style.transform ="translateX(0px)"
+            document.getElementById("BorderB").style.transform ="translateY(0px)"
+        },
+    },
+    
+})
+</script>
 
 <!-- Css classique -->
 <style scoped>
@@ -41,12 +72,6 @@
     bottom: 10%;
     height: 75%;
     width: 2px;
-    transform: rotate(6deg);
-}
-
-.link:hover > .icon{
-    transform: translateX(5px);
-    transition-duration: 0.5s;
 }
 </style>
 
