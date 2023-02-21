@@ -1,10 +1,10 @@
 <script setup>
-import Carrousel from '../components/Carrousel.vue';
-import Barchart from '../components/Barchart.vue';
+import Skills from '../components/Skills.vue';
+import Carrousel from '../components/Carrousel.vue'
 </script>
 
 <template>
-    <div class="">
+    <div class="mt-16">
         <Carrousel/>
     </div>
 </template>

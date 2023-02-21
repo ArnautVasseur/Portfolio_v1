@@ -28,7 +28,7 @@
                 <h4 class="text-[#666] text-[1.7em]" id="categorie-8">n</h4>
                 <h4 class="text-[#666] text-[1.7em]" id="categorie-9">d</h4>
             </div>
-            <div class="link flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg absolute bottom-28 border border-transparent hover:border-b-2 hover:border-b-white">
+            <div class="link flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg absolute duration-500 bottom-28 border border-transparent hover:border-b-2 hover:border-b-white">
                 <a href="" class="">Voir le site</a>
                 <i class="icon fa-sharp fa-solid fa-arrow-right"></i>
             </div>
@@ -86,7 +86,7 @@
 }
 
 #titre-2{
-    animation: ease-in-out -titre-2 0.5s .1s;
+    animation: ease-in-out -titre-2 0.5s .05s;
 }
 
 @keyframes -titre-3 {
@@ -100,7 +100,7 @@
 }
 
 #titre-3{
-    animation: ease-in-out -titre-3 0.5s .2s;
+    animation: ease-in-out -titre-3 0.5s .075s;
 }
 
 @keyframes -titre-4 {
@@ -114,7 +114,7 @@
 }
 
 #titre-4{
-    animation: ease-in-out -titre-4 0.5s .3s;
+    animation: ease-in-out -titre-4 0.5s .1s;
 }
 
 @keyframes -titre-5 {
@@ -128,7 +128,7 @@
 }
 
 #titre-5{
-    animation: ease-in-out -titre-5 0.5s .4s;
+    animation: ease-in-out -titre-5 0.5s .125s;
 }
 
 @keyframes -titre-6 {
@@ -142,7 +142,7 @@
 }
 
 #titre-6{
-    animation: ease-in-out -titre-6 0.5s .5s;
+    animation: ease-in-out -titre-6 0.5s .15s;
 }
 
 @keyframes -titre-7 {
@@ -156,7 +156,7 @@
 }
 
 #titre-7{
-    animation: ease-in-out -titre-7 0.5s .6s;
+    animation: ease-in-out -titre-7 0.5s .175s;
 }
 
 @keyframes -titre-8 {
@@ -170,7 +170,7 @@
 }
 
 #titre-8{
-    animation: ease-in-out -titre-8 0.5s .7s;
+    animation: ease-in-out -titre-8 0.5s .2s;
 }
 
 @keyframes -titre-9 {
@@ -184,7 +184,7 @@
 }
 
 #titre-9{
-    animation: ease-in-out -titre-9 0.5s .8s;
+    animation: ease-in-out -titre-9 0.5s .225s;
 }
 
 @keyframes -titre-10 {
@@ -198,7 +198,7 @@
 }
 
 #titre-10{
-    animation: ease-in-out -titre-10 0.5s .9s;
+    animation: ease-in-out -titre-10 0.5s .25s;
 }
 
 @keyframes -titre-11 {
@@ -212,7 +212,7 @@
 }
 
 #titre-11{
-    animation: ease-in-out -titre-11 0.5s 1s;
+    animation: ease-in-out -titre-11 0.5s .275s;
 }
 
 @keyframes -titre-12 {
@@ -226,7 +226,7 @@
 }
 
 #titre-12{
-    animation: ease-in-out -titre-12 0.5s 1.1s;
+    animation: ease-in-out -titre-12 0.5s .3s;
 }
 
 @keyframes -titre-13 {
@@ -240,7 +240,7 @@
 }
 
 #titre-13{
-    animation: ease-in-out -titre-13 0.5s 1.2s;
+    animation: ease-in-out -titre-13 0.5s .375s;
 }
 
 @keyframes -titre-14 {
@@ -254,7 +254,7 @@
 }
 
 #titre-14{
-    animation: ease-in-out -titre-14 0.5s 1.3s;
+    animation: ease-in-out -titre-14 0.5s .4s;
 }
 </style>
 
@@ -299,7 +299,7 @@
 }
 
 #categorie-3{
-    animation: ease-in-out -categorie-3 0.5s .2s;
+    animation: ease-in-out -categorie-3 0.5s .125s;
 }
 
 @keyframes -categorie-4 {
@@ -313,7 +313,7 @@
 }
 
 #categorie-4{
-    animation: ease-in-out -categorie-4 0.5s .3s;
+    animation: ease-in-out -categorie-4 0.5s .15s;
 }
 
 @keyframes -categorie-5 {
@@ -327,7 +327,7 @@
 }
 
 #categorie-5{
-    animation: ease-in-out -categorie-5 0.5s .4s;
+    animation: ease-in-out -categorie-5 0.5s .175s;
 }
 
 @keyframes -categorie-6 {
@@ -341,7 +341,7 @@
 }
 
 #categorie-6{
-    animation: ease-in-out -categorie-6 0.5s .5s;
+    animation: ease-in-out -categorie-6 0.5s .2s;
 }
 
 @keyframes -categorie-7 {
@@ -355,7 +355,7 @@
 }
 
 #categorie-7{
-    animation: ease-in-out -categorie-7 0.5s .6s;
+    animation: ease-in-out -categorie-7 0.5s .225s;
 }
 
 @keyframes -categorie-8 {
@@ -369,7 +369,7 @@
 }
 
 #categorie-8{
-    animation: ease-in-out -categorie-8 0.5s .7s;
+    animation: ease-in-out -categorie-8 0.5s .25s;
 }
 
 @keyframes -categorie-9 {
@@ -383,6 +383,6 @@
 }
 
 #categorie-9{
-    animation: ease-in-out -categorie-9 0.5s .8s;
+    animation: ease-in-out -categorie-9 0.5s .275s;
 }
 </style>

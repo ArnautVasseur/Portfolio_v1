@@ -105,7 +105,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-2{
-    animation: ease-in-out -titre-2 0.5s .1s;
+    animation: ease-in-out -titre-2 0.5s .05s;
 }
 
 @keyframes -titre-3 {
@@ -119,7 +119,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-3{
-    animation: ease-in-out -titre-3 0.5s .2s;
+    animation: ease-in-out -titre-3 0.5s .075s;
 }
 
 @keyframes -titre-4 {
@@ -133,7 +133,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-4{
-    animation: ease-in-out -titre-4 0.5s .3s;
+    animation: ease-in-out -titre-4 0.5s .1s;
 }
 
 @keyframes -titre-5 {
@@ -147,7 +147,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-5{
-    animation: ease-in-out -titre-5 0.5s .4s;
+    animation: ease-in-out -titre-5 0.5s .125s;
 }
 
 @keyframes -titre-6 {
@@ -161,7 +161,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-6{
-    animation: ease-in-out -titre-6 0.5s .5s;
+    animation: ease-in-out -titre-6 0.5s .15s;
 }
 
 @keyframes -titre-7 {
@@ -175,7 +175,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-7{
-    animation: ease-in-out -titre-7 0.5s .6s;
+    animation: ease-in-out -titre-7 0.5s .175s;
 }
 
 @keyframes -titre-8 {
@@ -189,7 +189,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-8{
-    animation: ease-in-out -titre-8 0.5s .7s;
+    animation: ease-in-out -titre-8 0.5s .2s;
 }
 
 @keyframes -titre-9 {
@@ -203,7 +203,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-9{
-    animation: ease-in-out -titre-9 0.5s .8s;
+    animation: ease-in-out -titre-9 0.5s .225s;
 }
 
 @keyframes -titre-10 {
@@ -217,7 +217,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-10{
-    animation: ease-in-out -titre-10 0.5s .9s;
+    animation: ease-in-out -titre-10 0.5s .25s;
 }
 
 @keyframes -titre-11 {
@@ -231,7 +231,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-11{
-    animation: ease-in-out -titre-11 0.5s 1s;
+    animation: ease-in-out -titre-11 0.5s .1s;
 }
 
 @keyframes -titre-12 {
@@ -245,7 +245,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-12{
-    animation: ease-in-out -titre-12 0.5s 1.1s;
+    animation: ease-in-out -titre-12 0.5s .125s;
 }
 
 @keyframes -titre-13 {
@@ -259,7 +259,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #titre-13{
-    animation: ease-in-out -titre-13 0.5s 1.2s;
+    animation: ease-in-out -titre-13 0.5s .15s;
 }
 </style>
 
@@ -304,7 +304,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #categorie-3{
-    animation: ease-in-out -categorie-3 0.5s .2s;
+    animation: ease-in-out -categorie-3 0.5s .125s;
 }
 
 @keyframes -categorie-4 {
@@ -318,7 +318,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #categorie-4{
-    animation: ease-in-out -categorie-4 0.5s .3s;
+    animation: ease-in-out -categorie-4 0.5s .15s;
 }
 
 @keyframes -categorie-5 {
@@ -332,7 +332,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #categorie-5{
-    animation: ease-in-out -categorie-5 0.5s .4s;
+    animation: ease-in-out -categorie-5 0.5s .175s;
 }
 
 @keyframes -categorie-6 {
@@ -346,7 +346,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #categorie-6{
-    animation: ease-in-out -categorie-6 0.5s .5s;
+    animation: ease-in-out -categorie-6 0.5s .2s;
 }
 
 @keyframes -categorie-7 {
@@ -360,7 +360,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #categorie-7{
-    animation: ease-in-out -categorie-7 0.5s .6s;
+    animation: ease-in-out -categorie-7 0.5s .225s;
 }
 
 @keyframes -categorie-8 {
@@ -374,7 +374,7 @@ import Barchart from '../Barchart.vue';
 }
 
 #categorie-8{
-    animation: ease-in-out -categorie-8 0.5s .7s;
+    animation: ease-in-out -categorie-8 0.5s .25s;
 }
 
 @keyframes -categorie-9 {
@@ -388,6 +388,6 @@ import Barchart from '../Barchart.vue';
 }
 
 #categorie-9{
-    animation: ease-in-out -categorie-9 0.5s .8s;
+    animation: ease-in-out -categorie-9 0.5s .275s;
 }
 </style>
