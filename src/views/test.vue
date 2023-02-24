@@ -4,7 +4,7 @@ import Carrousel from '../components/Carrousel.vue'
 </script>
 
 <template>
-    <div class="mt-16">
+    <div class="m-24">
         <Carrousel/>
     </div>
 </template>

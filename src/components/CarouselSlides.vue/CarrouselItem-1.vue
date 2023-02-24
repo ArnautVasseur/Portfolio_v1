@@ -1,21 +1,21 @@
 <template>
     <div class="flex justify-center w-full">
-        <div class="box-text relative w-1/2 py-16 px-24">
+        <div class="box-text relative w-1/2 py-16 px-36">
             <div class="flex">
-                <h3 class="text-[#aaa] text-[4em]" id="titre-1">M</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-2">e</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-3">t</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-4">a</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-5">l</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-6">a</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-7">n</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-8">c</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-9">o</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-10">l</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-11">i</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-12">q</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-13">u</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-14">e</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-1">M</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-2">e</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-3">t</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-4">a</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-5">l</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-6">a</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-7">n</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-8">c</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-9">o</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-10">l</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-11">i</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-12">q</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-13">u</h3>
+                <h3 class="text-[#aaa] text-[3.9em]" id="titre-14">e</h3>
             </div>
             <div class="flex">
                 <h4 class="text-[#666] text-[1.7em]" id="categorie-1">F</h4>
@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="box-images w-1/2 flex justify-center align-middle items-center m-20 ">
-            <img src="../../assets/Metalancolique.svg" class="w-1/2 " alt="">
+            <img src="../../assets/Metalancolique.svg" class="w-3/6" alt="">
         </div>
     </div>
 </template>
@@ -82,36 +82,6 @@ export default({
     height: 75%;
     width: 2px;
 }
-
-/* .linktext::before{
-    content: "";
-    background: white;
-    position: absolute;
-    opacity: 0;
-    inset: 50px 0px;
-    height: 1px;
-    width: 100%;
-}
-.link:hover > .linktext:hover::before{
-    opacity: 1;
-    inset: 40px 0px;
-    transition-duration: 500ms;
-}
-
-.linktext::after{
-    content: "";
-    background: white;
-    position: absolute;
-    opacity: 0;
-    inset: -20px 0px;
-    height: 1px;
-    width: 100%;
-}
-.link:hover > .linktext:hover::after{
-    opacity: 1;
-    inset: -15px 0px;
-    transition-duration: 500ms;
-} */
 </style>
 
 <!-- Animations titre -->

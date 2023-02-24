@@ -6,45 +6,25 @@ import CarrouselItem4 from './CarouselSlides.vue/CarrouselItem-4.vue';
 </script>
 
 <template>
-    <div class="container-box relative w-2/3 h-[800px] m-auto mt-52 flex flex-col justify-center align-middle items-center">
-        <CarrouselItem1 v-if="slide1" class="absolute" />
-        <CarrouselItem2 v-if="slide2" class="absolute" />
-        <CarrouselItem3 v-if="slide3" class="absolute" />
-        <CarrouselItem4 v-if="slide4" class="absolute" />
-    </div>
-    <div class="text-white flex gap-5 ">
-        <button class="border-white border p-5"
-            @click="slide1 = true, slide2 = false, slide3 = false, slide4 = false">1</button>
-        <button class="border-white border p-5"
-            @click="slide2 = true, slide1 = false, slide3 = false, slide4 = false">2</button>
-        <button class="border-white border p-5"
-            @click="slide3 = true, slide1 = false, slide2 = false, slide4 = false">3</button>
-        <button class="border-white border p-5"
-            @click="slide4 = true, slide1 = false, slide2 = false, slide3 = false">4</button>
+    <div class="mt-52">
+        <div class="w-5/6 h-[800px] mb-52 flex justify-center align-middle items-center border-l-2 border-r-2 border-white">
+            <CarrouselItem1 v-if="slide1" />
+            <CarrouselItem2 v-if="slide2" />
+            <CarrouselItem3 v-if="slide3" />
+            <CarrouselItem4 v-if="slide4" />
+        </div>
+        <div class="text-white flex flex-row gap-5 justify-center w-16">
+            <button class="border-white border p-5"
+                @click="slide1 = true, slide2 = false, slide3 = false, slide4 = false">1</button>
+            <button class="border-white border p-5"
+                @click="slide2 = true, slide1 = false, slide3 = false, slide4 = false">2</button>
+            <button class="border-white border p-5"
+                @click="slide3 = true, slide1 = false, slide2 = false, slide4 = false">3</button>
+            <button class="border-white border p-5"
+                @click="slide4 = true, slide1 = false, slide2 = false, slide3 = false">4</button>
+        </div>
     </div>
 </template>
-
-<style scoped>
-.container-box::before {
-    content: "";
-    background: white;
-    position: absolute;
-    left: -30px;
-    height: 100%;
-    bottom: 0;
-    width: 2px;
-}
-
-.container-box::after {
-    content: "";
-    background: white;
-    position: absolute;
-    right: 30px;
-    height: 100%;
-    bottom: 0;
-    width: 2px;
-}
-</style>
 
 <script>
 export default {

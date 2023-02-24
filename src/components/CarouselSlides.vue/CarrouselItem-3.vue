@@ -4,7 +4,7 @@
 
 <template>
     <div class="flex justify-center w-full">
-        <div class="box-text relative w-1/2 py-16 px-24">
+        <div class="box-text relative w-1/2 h-[600px] py-16 px-36">
             <div class="flex gap-5">
                 <div class="flex">
                     <h3 class="text-[#aaa] text-[4em]" id="titre-1">R</h3>
