@@ -1,10 +1,13 @@
 <script setup>
 import Skills from '../components/Skills.vue';
 import Carrousel from '../components/Carrousel.vue'
+import Button from '../components/button.vue'
 </script>
 
 <template>
-    <div class="m-24">
-        <Carrousel/>
-    </div>
+    <body class="p-36">
+        <div>
+            
+        </div>
+    </body>
 </template>
