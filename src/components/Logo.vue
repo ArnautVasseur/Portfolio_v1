@@ -146,7 +146,6 @@
 }
 @keyframes -shrink-and-slide {
     0% {
-        transform: translateY(200px);
         opacity: 0;
         width: 1000px;
     }

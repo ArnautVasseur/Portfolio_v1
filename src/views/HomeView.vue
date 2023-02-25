@@ -7,6 +7,7 @@ import Footer from "../components/Footer.vue";
 
 <template>
     <div>
+        <div class="cursor"></div>
         <header class="flex justify-center items-center align-middle py-16">
             <Logo class="invisible sm:visible"/>
             <LogoSmall class="absolute left-4 m-auto top-5 visible sm:invisible" />
@@ -37,7 +38,12 @@ import Footer from "../components/Footer.vue";
                 </p>
             </div>
             <hr class="h-[1px] border bg-white my-16" />
-            <section class="Projects my-52">
+            <section class="Projects mb-52 mt-32">
+                <div class="flex justify-center items-center align-middle gap-5">
+                    <div class="AboutLeft"></div>
+                    <h2 class="AboutMe text-[#ccc] text-[2em] xl:text-[4em] text-center col-span-1 flex justify-center items-center align-middle">Projets</h2>
+                    <div class="AboutRight"></div>
+                </div>
                 <Carrousel/>
             </section>
             <hr class="h-[1px] border bg-white my-16" />
@@ -50,6 +56,7 @@ import Footer from "../components/Footer.vue";
 </template>
 
 <style scoped>
+
 h1::selection, h2::selection, p::selection {
     color: white;
     background-color: #111;

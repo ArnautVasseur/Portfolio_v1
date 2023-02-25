@@ -1,5 +1,5 @@
 <template>
-    <div class="relative w-full h-[550px] bg-[#111] px-8 xl:px-16 mt-8">
+    <div class="w-full h-[550px] bg-[#111] px-8 xl:px-16 mt-8">
         <p class="footer-text uppercase text-[#aaa] text-[2.5em] xl:text-[5em] text-center">Arnaut Vasseur</p>
         <hr class="h-[1px] border bg-white my-16" />
         <p class="footer-text uppercase text-[#aaa] text-[1.2em] xl:text-[3em] text-center">Étudiant en MMI / Développeur Web Front-End</p>
