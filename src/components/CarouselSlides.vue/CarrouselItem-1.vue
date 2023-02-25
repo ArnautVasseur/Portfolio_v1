@@ -1,6 +1,6 @@
 <template>
     <div class="flex justify-center w-full">
-        <div class="box-text relative w-1/2 py-16 px-36">
+        <div class="box-text relative h-[600px] w-1/2 border-r-2 border-white py-16 px-36">
             <div class="flex">
                 <h3 class="text-[#aaa] text-[3.9em]" id="titre-1">M</h3>
                 <h3 class="text-[#aaa] text-[3.9em]" id="titre-2">e</h3>
@@ -40,7 +40,7 @@
                 </a>
             </div>
         </div>
-        <div class="box-images w-1/2 flex justify-center align-middle items-center m-20 ">
+        <div class="box-images w-1/2 flex justify-center align-middle items-center">
             <img src="../../assets/Metalancolique.svg" class="w-3/6" alt="">
         </div>
     </div>
@@ -73,15 +73,6 @@ export default({
 
 <!-- Css classique -->
 <style scoped>
-.box-text::after{
-    content: "";
-    background: white;
-    position: absolute;
-    right: 0;
-    bottom: 10%;
-    height: 75%;
-    width: 2px;
-}
 </style>
 
 <!-- Animations titre -->

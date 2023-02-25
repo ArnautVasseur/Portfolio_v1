@@ -3,7 +3,7 @@
 
 <template>
     <div class="flex justify-center w-full">
-        <div class="box-text relative w-1/2 py-16 px-36">
+        <div class="box-text border-r-2 h-[600px] border-white relative w-1/2 py-16 px-36">
             <div class="flex">
                 <h3 class="text-[#aaa] text-[4em]" id="titre-1">D</h3>
                 <h3 class="text-[#aaa] text-[4em]" id="titre-2">a</h3>
@@ -11,7 +11,7 @@
                 <h3 class="text-[#aaa] text-[4em]" id="titre-4">a</h3>
                 <h3 class="text-[#aaa] text-[4em]" id="titre-5">-</h3>
             </div>
-            <div class="flex mb-16 -mt-5">
+            <div class="flex">
                 <h3 class="text-[#aaa] text-[4em]" id="titre-1">v</h3>
                 <h3 class="text-[#aaa] text-[4em]" id="titre-2">i</h3>
                 <h3 class="text-[#aaa] text-[4em]" id="titre-3">s</h3>
@@ -58,7 +58,7 @@
                 </a>
             </div>
         </div>
-        <div class="box-images w-1/2 flex justify-center align-middle items-center m-20">
+        <div class="box-images w-1/2 flex justify-center align-middle items-center">
             <img src="../../assets/BarChart.jpg" alt="">
         </div>
     </div>
@@ -90,15 +90,6 @@ export default({
 
 <!-- Css classique -->
 <style scoped>
-.box-text::after{
-    content: "";
-    background: white;
-    position: absolute;
-    right: 0;
-    bottom: 10%;
-    height: 75%;
-    width: 2px;
-}
 </style>
 
 <!-- Animations titre -->

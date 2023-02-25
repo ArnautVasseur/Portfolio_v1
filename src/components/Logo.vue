@@ -146,26 +146,18 @@
 }
 @keyframes -shrink-and-slide {
     0% {
-        width: 700px;
-        transform: translateY(300px);
-        animation-timing-function: cubic-bezier(0.3, 0.7, 0.7, 1);
-    }
-    70% {
-        width: 400px;
-    }
-    100% {}
-}
-@keyframes -tempo {
-    0% {
-        width: 100%;
-        height: 50%;
-        transform: translateY(300px);
+        transform: translateY(200px);
+        opacity: 0;
+        width: 1000px;
     }
     100% {
-        width: 100%;
-        transform: translateY(300px);
+        opacity: 1;
+        width: 400px;
+        animation-timing-function: cubic-bezier(0.3, 0.7, 0.7, 1);
     }
 }
+
+
  }
 
 .Logo #text-top {
@@ -190,9 +182,7 @@
     animation: ease-in-out -notes 1s;
 }
 .Logo {
-    position: absolute;
-    top: 0;
     width: 400px;
-    animation: 1s -tempo ease-in-out, 1s ease-in-out 1s -shrink-and-slide;
+    animation: ease-in-out 1s -shrink-and-slide;
 }
 </style>

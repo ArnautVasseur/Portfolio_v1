@@ -4,7 +4,7 @@
 
 <template>
     <div class="flex justify-center w-full">
-        <div class="box-text relative w-1/2 h-[600px] py-16 px-36">
+        <div class="box-text relative h-[600px] border-r-2 border-white w-1/2 py-16 px-36">
             <div class="flex gap-5">
                 <div class="flex">
                     <h3 class="text-[#aaa] text-[4em]" id="titre-1">R</h3>
@@ -52,7 +52,7 @@
                 </a>
             </div>
         </div>
-        <div class="box-images w-1/2 flex justify-center align-middle items-center m-20 ">
+        <div class="box-images w-1/2 flex justify-center align-middle items-center ">
             <img src="../../assets/Mercedes.svg" class="w-2/3 " alt="">
         </div>
     </div>
@@ -84,15 +84,6 @@ export default({
 
 <!-- Css classique -->
 <style scoped>
-.box-text::after{
-    content: "";
-    background: white;
-    position: absolute;
-    right: 0;
-    bottom: 10%;
-    height: 75%;
-    width: 2px;
-}
 </style>
 
 <!-- Animations titre -->

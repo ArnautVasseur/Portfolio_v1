@@ -6,56 +6,56 @@ import CarrouselItem4 from './CarouselSlides.vue/CarrouselItem-4.vue';
 </script>
 
 <template>
-    <div class="mt-52">
-        <div class="w-5/6 h-[800px] mb-52 flex justify-center align-middle items-center border-l-2 border-r-2 border-white">
+    <div class="flex flex-col justify-between items-center align-middle gap-16 border-white">
+        <div class="w-5/6 h-[800px] flex justify-center align-middle items-center border-l-2 border-r-2 border-white">
             <CarrouselItem1 v-if="slide1" />
             <CarrouselItem2 v-if="slide2" />
             <CarrouselItem3 v-if="slide3" />
             <CarrouselItem4 v-if="slide4" />
         </div>
-        <div class="text-white flex flex-row gap-5 justify-center w-16">
-            <button class="flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg  duration-500 bottom-28"
+        <div class="text-white flex flex-row gap-16 justify-center">
+            <button class="flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg duration-500 bottom-28"
                 @mouseover="mouseOver1()" @mouseleave="mouseLeave1()" @click="slide1 = true, slide2 = false, slide3 = false, slide4 = false">
-                <div id="BorderL1" class="h-[50px] w-[1px] bg-white"></div>
+                <div id="BorderL1" class="h-[50px] w-[2px] bg-white"></div>
                 <div class="flex flex-col justify-between items-center align-middle gap-10">
-                    <div id="BorderT1" class="h-[1px] w-[50px] bg-white"></div>
+                    <div id="BorderT1" class="h-[2px] w-[50px] bg-white"></div>
                     <p class="text-center text-2xl">1</p>
-                    <div id="BorderB1" class="h-[1px] w-[50px] bg-white"></div>
+                    <div id="BorderB1" class="h-[2px] w-[50px] bg-white"></div>
                 </div>
-                <div id="BorderR1" class="h-[50px] w-[1px] bg-white"></div>
+                <div id="BorderR1" class="h-[50px] w-[2px] bg-white"></div>
             </button>
 
             <button class="flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg  duration-500 bottom-28"
                 @mouseover="mouseOver2()" @mouseleave="mouseLeave2()" @click="slide2 = true, slide1 = false, slide3 = false, slide4 = false">
-                <div id="BorderL2" class="h-[50px] w-[1px] bg-white"></div>
+                <div id="BorderL2" class="h-[50px] w-[2px] bg-white"></div>
                 <div class="flex flex-col justify-between items-center align-middle gap-10">
-                    <div id="BorderT2" class="h-[1px] w-[50px] bg-white"></div>
+                    <div id="BorderT2" class="h-[2px] w-[50px] bg-white"></div>
                     <p class="text-center text-2xl">2</p>
-                    <div id="BorderB2" class="h-[1px] w-[50px] bg-white"></div>
+                    <div id="BorderB2" class="h-[2px] w-[50px] bg-white"></div>
                 </div>
-                <div id="BorderR2" class="h-[50px] w-[1px] bg-white"></div>
+                <div id="BorderR2" class="h-[50px] w-[2px] bg-white"></div>
             </button>
 
             <button class="flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg  duration-500 bottom-28"
                 @mouseover="mouseOver3()" @mouseleave="mouseLeave3()" @click="slide3 = true, slide1 = false, slide2 = false, slide4 = false">
-                <div id="BorderL3" class="h-[50px] w-[1px] bg-white"></div>
+                <div id="BorderL3" class="h-[50px] w-[2px] bg-white"></div>
                 <div class="flex flex-col justify-between items-center align-middle gap-10">
-                    <div id="BorderT3" class="h-[1px] w-[50px] bg-white"></div>
+                    <div id="BorderT3" class="h-[2px] w-[50px] bg-white"></div>
                     <p class="text-center text-2xl">3</p>
-                    <div id="BorderB3" class="h-[1px] w-[50px] bg-white"></div>
+                    <div id="BorderB3" class="h-[2px] w-[50px] bg-white"></div>
                 </div>
-                <div id="BorderR3" class="h-[50px] w-[1px] bg-white"></div>
+                <div id="BorderR3" class="h-[50px] w-[2px] bg-white"></div>
             </button>
 
             <button class="flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg  duration-500 bottom-28"
                 @mouseover="mouseOver4()" @mouseleave="mouseLeave4()" @click="slide4 = true, slide1 = false, slide2 = false, slide3 = false">
-                <div id="BorderL4" class="h-[50px] w-[1px] bg-white"></div>
+                <div id="BorderL4" class="h-[50px] w-[2px] bg-white"></div>
                 <div class="flex flex-col justify-between items-center align-middle gap-10">
-                    <div id="BorderT4" class="h-[1px] w-[50px] bg-white"></div>
+                    <div id="BorderT4" class="h-[2px] w-[50px] bg-white"></div>
                     <p class="text-center text-2xl">4</p>
-                    <div id="BorderB4" class="h-[1px] w-[50px] bg-white"></div>
+                    <div id="BorderB4" class="h-[2px] w-[50px] bg-white"></div>
                 </div>
-                <div id="BorderR4" class="h-[50px] w-[1px] bg-white"></div>
+                <div id="BorderR4" class="h-[50px] w-[2px] bg-white"></div>
             </button>
         </div>
     </div>
