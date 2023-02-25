@@ -7,7 +7,7 @@ import Button from '../components/button.vue'
 <template>
     <body class="p-36">
         <div>
-            
+            <Carrousel/>
         </div>
     </body>
 </template>

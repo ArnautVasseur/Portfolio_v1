@@ -28,13 +28,13 @@
                 <h4 class="text-[#666] text-[1.7em]" id="categorie-8">n</h4>
                 <h4 class="text-[#666] text-[1.7em]" id="categorie-9">d</h4>
             </div>
-            <div @mouseover="mouseOver()" @mouseleave="mouseLeave()" class="link flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg absolute duration-500 bottom-28">
+            <div @mouseover="mouseOverLink()" @mouseleave="mouseLeaveLink()" class="link flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg absolute duration-500 bottom-28">
                 <a href="" class="w-48 h-16 flex flex-row items-center align-middle justify-between">
-                    <div id="BorderL" class="h-full w-[1px] bg-white"></div>
+                    <div id="LinkBorderL" class="h-full w-[1px] bg-white"></div>
                     <div class="flex flex-col justify-between items-center align-middle gap-10">
-                        <div id="BorderT" class="h-[1px] w-full bg-white"></div>
+                        <div id="LinkBorderT" class="h-[1px] w-full bg-white"></div>
                         <p class="linktext text-center">Voir le site</p>
-                        <div id="BorderB" class="h-[1px] w-full bg-white"></div>
+                        <div id="LinkBorderB" class="h-[1px] w-full bg-white"></div>
                     </div>
                     <i id="icon" class="icon fa-sharp fa-solid fa-arrow-right"></i>
                 </a>
@@ -49,21 +49,21 @@
 <script scoped>
 export default({
     methods:{
-        mouseOver(){
+        mouseOverLink(){
             document.getElementById("icon").style.transitionDuration ="300ms"
-            document.getElementById("BorderT").style.transitionDuration ="300ms"
-            document.getElementById("BorderL").style.transitionDuration ="300ms"
-            document.getElementById("BorderB").style.transitionDuration ="300ms"
+            document.getElementById("LinkBorderT").style.transitionDuration ="300ms"
+            document.getElementById("LinkBorderL").style.transitionDuration ="300ms"
+            document.getElementById("LinkBorderB").style.transitionDuration ="300ms"
             document.getElementById("icon").style.scale ="1.5"
-            document.getElementById("BorderT").style.transform ="translateY(20px)"
-            document.getElementById("BorderL").style.transform ="translateX(30px)"
-            document.getElementById("BorderB").style.transform ="translateY(-20px)"
+            document.getElementById("LinkBorderT").style.transform ="translateY(20px)"
+            document.getElementById("LinkBorderL").style.transform ="translateX(30px)"
+            document.getElementById("LinkBorderB").style.transform ="translateY(-20px)"
         },
-        mouseLeave(){
+        mouseLeaveLink(){
             document.getElementById("icon").style.scale ="1"
-            document.getElementById("BorderT").style.transform ="translateY(0px)"
-            document.getElementById("BorderL").style.transform ="translateX(0px)"
-            document.getElementById("BorderB").style.transform ="translateY(0px)"
+            document.getElementById("LinkBorderT").style.transform ="translateY(0px)"
+            document.getElementById("LinkBorderL").style.transform ="translateX(0px)"
+            document.getElementById("LinkBorderB").style.transform ="translateY(0px)"
         },
     }
   
