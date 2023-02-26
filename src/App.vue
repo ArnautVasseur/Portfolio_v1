@@ -74,10 +74,12 @@ export default {
         const mousemove = (e) => {
                 square.style.left = e.pageX + 'px';
                 square.style.top = e.pageY + 'px';
-                square.style.transform = 'rotate(' + e.pageX + 'deg)';
+                let rotatecube = e.pageX + e.pageY;
+                console.log(rotatecube);
+                square.style.transform = 'rotate(' + rotatecube + 'deg)';
                 bigsquare.style.left = e.pageX + 'px';
                 bigsquare.style.top = e.pageY + 'px';
-                bigsquare.style.transform = 'rotate(' + e.pageX + 'deg)';
+                bigsquare.style.transform = 'rotate(' + rotatecube + 'deg)';
             }
             document.addEventListener('mousemove', mousemove);
     }
