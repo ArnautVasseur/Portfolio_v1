@@ -15,7 +15,8 @@ import CarrouselItem4 from './CarouselSlides.vue/CarrouselItem-4.vue';
         </div>
         <div class="text-white flex flex-row gap-16 justify-center">
             <button class="flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg duration-500 bottom-28"
-                @mouseover="mouseOver1()" @mouseleave="mouseLeave1()" @click="slide1 = true, slide2 = false, slide3 = false, slide4 = false">
+                @mouseover="mouseOver1()" @mouseleave="mouseLeave1()" @click="slide1 = true, slide2 = false, slide3 = false, slide4 = false"
+                data-aos="fade-up" data-aos-delay="100">
                 <div id="BorderL1" class="h-[50px] w-[2px] bg-white"></div>
                 <div class="flex flex-col justify-between items-center align-middle gap-10">
                     <div id="BorderT1" class="h-[2px] w-[50px] bg-white"></div>
@@ -26,7 +27,8 @@ import CarrouselItem4 from './CarouselSlides.vue/CarrouselItem-4.vue';
             </button>
 
             <button class="flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg  duration-500 bottom-28"
-                @mouseover="mouseOver2()" @mouseleave="mouseLeave2()" @click="slide2 = true, slide1 = false, slide3 = false, slide4 = false">
+                @mouseover="mouseOver2()" @mouseleave="mouseLeave2()" @click="slide2 = true, slide1 = false, slide3 = false, slide4 = false"
+                data-aos="fade-up" data-aos-delay="200">
                 <div id="BorderL2" class="h-[50px] w-[2px] bg-white"></div>
                 <div class="flex flex-col justify-between items-center align-middle gap-10">
                     <div id="BorderT2" class="h-[2px] w-[50px] bg-white"></div>
@@ -37,7 +39,8 @@ import CarrouselItem4 from './CarouselSlides.vue/CarrouselItem-4.vue';
             </button>
 
             <button class="flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg  duration-500 bottom-28"
-                @mouseover="mouseOver3()" @mouseleave="mouseLeave3()" @click="slide3 = true, slide1 = false, slide2 = false, slide4 = false">
+                @mouseover="mouseOver3()" @mouseleave="mouseLeave3()" @click="slide3 = true, slide1 = false, slide2 = false, slide4 = false"
+                data-aos="fade-up" data-aos-delay="300">
                 <div id="BorderL3" class="h-[50px] w-[2px] bg-white"></div>
                 <div class="flex flex-col justify-between items-center align-middle gap-10">
                     <div id="BorderT3" class="h-[2px] w-[50px] bg-white"></div>
@@ -48,7 +51,8 @@ import CarrouselItem4 from './CarouselSlides.vue/CarrouselItem-4.vue';
             </button>
 
             <button class="flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg  duration-500 bottom-28"
-                @mouseover="mouseOver4()" @mouseleave="mouseLeave4()" @click="slide4 = true, slide1 = false, slide2 = false, slide3 = false">
+                @mouseover="mouseOver4()" @mouseleave="mouseLeave4()" @click="slide4 = true, slide1 = false, slide2 = false, slide3 = false"
+                data-aos="fade-up" data-aos-delay="400">
                 <div id="BorderL4" class="h-[50px] w-[2px] bg-white"></div>
                 <div class="flex flex-col justify-between items-center align-middle gap-10">
                     <div id="BorderT4" class="h-[2px] w-[50px] bg-white"></div>

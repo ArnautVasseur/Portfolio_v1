@@ -11,23 +11,23 @@ import Titres from "../components/Titres.vue";
     <div>
         <div class="scroll-line z-10"></div>
         <div class="cursor"></div>
-        <header class="flex justify-center items-center align-middle py-16">
+        <header class="flex justify-center items-center align-middle py-12">
             <Logo class="invisible sm:visible" />
             <LogoSmall class="absolute left-4 m-auto top-5 visible sm:invisible" />
         </header>
 
         <body class="px-16">
-            <hr class="h-[1px] border bg-white mb-16" />
-            <div class="flex justify-center items-center align-middle">
+            <hr class="h-[1px] border bg-white mb-10" data-aos="fade-up" data-aos-delay="200"/>
+            <div class="flex justify-center items-center align-middle" data-aos="fade-up" data-aos-delay="200" >
                 <div class="TitleLeft"></div>
                 <h1 class="uppercase text-[#ccc] text-center text-[2.5em] xl:text-[7em] p-7">Portfolio</h1>
                 <div class="TitleRight"></div>
             </div>
-            <hr class="h-[1px] border bg-white my-16" />
+            <hr class="h-[1px] border bg-white my-10"/>
             <div class="xl:grid xl:grid-cols-3 xl:gap-20 text-[#aaa] p-8 xl:p-20">
                 <Titres
-                    titre="About Me"/>
-                <p class="xl:col-span-2 xl:text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper
+                    titre="About Me" data-aos="fade-right" data-aos-delay="200"/>
+                <p class="xl:col-span-2 xl:text-2xl" data-aos="fade-left" data-aos-delay="200">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ullamcorper
                     aliquet lectus, non sodales
                     nulla lobortis at. Aenean nisi dui, efficitur sed risus et, semper blandit eros. Quisque facilisis,
                     ante quis ultrices accumsan, metus augue dapibus nisl, id hendrerit nisl turpis eu purus. Maecenas
@@ -38,14 +38,14 @@ import Titres from "../components/Titres.vue";
                     blandit mi.
                 </p>
             </div>
-            <hr class="h-[1px] border bg-white my-16" />
-            <section class="Projects mb-52 mt-32">
+            <hr class="h-[1px] border bg-white my-16" data-aos="fade-up" data-aos-delay="200" />
+            <section class="Projects mb-52 mt-32" data-aos="fade-up" data-aos-delay="200">
                 <Titres
                     titre="Projets"/>
                 <Carrousel />
             </section>
 
-            <hr class="h-[1px] border bg-white my-16" />
+            <hr class="h-[1px] border bg-white my-16" data-aos="fade-up" data-aos-delay="200"/>
 
             <section>
                 <Titres
@@ -53,38 +53,34 @@ import Titres from "../components/Titres.vue";
                 <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(280px,280px))] justify-center my-24">
                     <Skills
                         skill="HTML5"
-                        img="src\assets\icons\html.jpg"/>
+                        img="src\assets\icons\html.jpg" data-aos="fade-up" data-aos-delay="200"/>
                     <Skills
                         skill="CSS3"
-                        img="src\assets\icons\css.jpg"/>
+                        img="src\assets\icons\css.jpg " data-aos="fade-up" data-aos-delay="300"/>
                     <Skills
                         skill="JavaScript"
-                        img="src\assets\icons\javascript.jpg"/>
+                        img="src\assets\icons\javascript.jpg" data-aos="fade-up" data-aos-delay="400"/>
                     <Skills
                         skill="Tailwind"
-                        img="src\assets\icons\tailwind.jpg"/>
+                        img="src\assets\icons\tailwind.jpg" data-aos="fade-up" data-aos-delay="500"/>
                     <Skills
                         skill="VueJS"
-                        img="src\assets\icons\vuejs.jpg"/>
+                        img="src\assets\icons\vuejs.jpg" data-aos="fade-up" data-aos-delay="600"/>
                 </div>
-                <h2 class="text-[#ccc] text-[2em] xl:text-[2.5em] text-center">Autres compétences</h2>
+                <h2 class="text-[#ccc] text-[2em] xl:text-[2.5em] text-center" data-aos="fade-up" data-aos-delay="200">Autres compétences</h2>
                 <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(300px,330px))] justify-center my-24">
                     <Skills
                         skill="Wordpress"
-                        img="src\assets\icons\wordpress.jpg"/>
+                        img="src\assets\icons\wordpress.jpg" data-aos="fade-up" data-aos-delay="200"/>
                     <Skills
                         skill="Illustrator"
-                        img="src\assets\icons\illustrator.jpg"/>
+                        img="src\assets\icons\illustrator.jpg" data-aos="fade-up" data-aos-delay="300"/>
                     <Skills
                         skill="Figma"
-                        img="src\assets\icons\figma.jpg"/>
+                        img="src\assets\icons\figma.jpg" data-aos="fade-up" data-aos-delay="400"/>
                 </div>
             </section>
         </body>
-
-        <footer class="mb-16">
-            <Footer />
-        </footer>
     </div>
 </template>
 
@@ -122,6 +118,7 @@ p::selection {
 </style>
 
 <script scoped>
+
 export default {
     mounted() {
         const scrollline = document.querySelector('.scroll-line');

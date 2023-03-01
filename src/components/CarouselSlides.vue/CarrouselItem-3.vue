@@ -7,38 +7,38 @@
         <div class="box-text relative h-[600px] border-r-2 border-white w-1/2 py-16 px-36">
             <div class="flex gap-5">
                 <div class="flex">
-                    <h3 class="text-[#aaa] text-[4em]" id="titre-1">R</h3>
-                    <h3 class="text-[#aaa] text-[4em]" id="titre-2">e</h3>
-                    <h3 class="text-[#aaa] text-[4em]" id="titre-3">f</h3>
-                    <h3 class="text-[#aaa] text-[4em]" id="titre-4">o</h3>
-                    <h3 class="text-[#aaa] text-[4em]" id="titre-5">n</h3>
-                    <h3 class="text-[#aaa] text-[4em]" id="titre-6">t</h3>
-                    <h3 class="text-[#aaa] text-[4em]" id="titre-7">e</h3>
+                    <h3 class="text-[#aaa] text-[3em]" id="titre-1">R</h3>
+                    <h3 class="text-[#aaa] text-[3em]" id="titre-2">e</h3>
+                    <h3 class="text-[#aaa] text-[3em]" id="titre-3">f</h3>
+                    <h3 class="text-[#aaa] text-[3em]" id="titre-4">o</h3>
+                    <h3 class="text-[#aaa] text-[3em]" id="titre-5">n</h3>
+                    <h3 class="text-[#aaa] text-[3em]" id="titre-6">t</h3>
+                    <h3 class="text-[#aaa] text-[3em]" id="titre-7">e</h3>
                 </div>
                 <div class="flex">    
-                    <h3 class="text-[#aaa] text-[4em]" id="titre-8">L</h3>
-                    <h3 class="text-[#aaa] text-[4em]" id="titre-9">o</h3>
-                    <h3 class="text-[#aaa] text-[4em]" id="titre-10">g</h3>
-                    <h3 class="text-[#aaa] text-[4em]" id="titre-11">o</h3>
+                    <h3 class="text-[#aaa] text-[3em]" id="titre-8">L</h3>
+                    <h3 class="text-[#aaa] text-[3em]" id="titre-9">o</h3>
+                    <h3 class="text-[#aaa] text-[3em]" id="titre-10">g</h3>
+                    <h3 class="text-[#aaa] text-[3em]" id="titre-11">o</h3>
                 </div>
             </div>
             <div class="flex -mt-5">
-                <h3 class="text-[#aaa] text-[4em]" id="titre-1">M</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-2">e</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-3">r</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-4">c</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-5">e</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-6">d</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-7">e</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-8">s</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-1">M</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-2">e</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-3">r</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-4">c</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-5">e</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-6">d</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-7">e</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-8">s</h3>
             </div>
             <div class="flex">
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-1">D</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-2">e</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-3">s</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-4">i</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-5">g</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-6">n</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-1">D</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-2">e</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-3">s</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-4">i</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-5">g</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-6">n</h4>
             </div>
             <div @mouseover="mouseOver()" @mouseleave="mouseLeave()" class="link flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg absolute duration-500 bottom-28">
                 <a href="" class="w-48 h-16 flex flex-row items-center align-middle justify-between">

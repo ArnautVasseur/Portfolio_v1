@@ -11,6 +11,7 @@ import Footer from "./components/Footer.vue";
       <div id="square2" class="cursorfollow2 z-10"></div>
       <RouterView />
       <!-- <Footer/> -->
+      <Footer class="mb-16"/>
     </main>
   </div>
 </template>

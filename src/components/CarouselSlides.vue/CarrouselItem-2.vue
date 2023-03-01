@@ -5,46 +5,46 @@
     <div class="flex justify-center w-full">
         <div class="box-text border-r-2 h-[600px] border-white relative w-1/2 py-16 px-36">
             <div class="flex">
-                <h3 class="text-[#aaa] text-[4em]" id="titre-1">D</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-2">a</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-3">t</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-4">a</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-5">-</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-1">D</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-2">a</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-3">t</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-3">a</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-5">-</h3>
             </div>
             <div class="flex">
-                <h3 class="text-[#aaa] text-[4em]" id="titre-1">v</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-2">i</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-3">s</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-4">u</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-5">a</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-6">l</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-7">i</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-8">s</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-9">a</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-10">t</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-11">i</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-12">o</h3>
-                <h3 class="text-[#aaa] text-[4em]" id="titre-13">n</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-1">v</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-2">i</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-3">s</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-3">u</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-5">a</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-6">l</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-7">i</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-8">s</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-9">a</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-10">t</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-11">i</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-12">o</h3>
+                <h3 class="text-[#aaa] text-[3em]" id="titre-13">n</h3>
             </div>
             <div class="flex">
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-1">F</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-2">r</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-3">o</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-4">n</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-5">t</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-6">-</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-7">e</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-8">n</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-9">d</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-9">/</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-1">B</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-2">a</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-3">c</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-4">k</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-6">-</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-7">e</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-8">n</h4>
-                <h4 class="text-[#666] text-[1.7em]" id="categorie-9">d</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-1">F</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-2">r</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-3">o</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-4">n</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-5">t</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-6">-</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-7">e</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-8">n</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-9">d</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-9">/</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-1">B</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-2">a</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-3">c</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-4">k</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-6">-</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-7">e</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-8">n</h4>
+                <h4 class="text-[#666] text-[1.3em]" id="categorie-9">d</h4>
             </div>
             <div @mouseover="mouseOver()" @mouseleave="mouseLeave()" class="link flex justify-center align-middle items-center gap-5 text-[#aaa] text-lg absolute duration-500 bottom-28">
                 <a href="" class="w-48 h-16 flex flex-row items-center align-middle justify-between">
