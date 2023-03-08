@@ -7,10 +7,12 @@
     "preview": "vite preview --port 4173"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.10.0",
     "aos": "^2.3.4",
     "chart.js": "^4.2.0",
     "chartjs": "^0.3.24",
     "daisyui": "^2.50.0",
+    "firebase": "^9.17.2",
     "tailwindcss-animation": "^0.1.2",
     "vue": "^3.2.37",
     "vue-chartjs": "^5.2.0",

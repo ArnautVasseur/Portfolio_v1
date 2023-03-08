@@ -1,4 +1,17 @@
 <script setup>
+import { ref, onMounted } from 'vue'
+import { supabase } from '../lib/supabaseClient'
+
+const projets = ref([])
+
+async function getProjets() {
+    const { data } = await supabase.from('projets').select()
+    projets.value = data
+}
+
+onMounted(() => {
+    getProjets()
+})
 
 </script>
 
@@ -17,7 +30,8 @@
                     <div class="flex mb-10 text-center" data-aos="fade-right" data-aos-delay="100">
                         <h3 class="text-[#ccc] text-[3.5em]">Metalancolique</h3>
                     </div>
-                    <div class="flex justify-center align-middle items-center w-full" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex justify-center align-middle items-center w-full" data-aos="fade-up"
+                        data-aos-delay="300">
                         <img src="../assets/Metalancolique.svg" class="w-1/3" alt="">
                     </div>
 
@@ -40,7 +54,8 @@
                     <div class="flex text-center -mb-5" data-aos="fade-left" data-aos-delay="300">
                         <h3 class="text-[#ccc] text-[3.5em]">Data-Visualisation</h3>
                     </div>
-                    <div class="flex justify-center align-middle items-center w-full" data-aos="fade-up" data-aos-delay="500">
+                    <div class="flex justify-center align-middle items-center w-full" data-aos="fade-up"
+                        data-aos-delay="500">
                         <img src="../assets/BarChart.jpg" class="w-1/3" alt="">
                     </div>
 
@@ -58,7 +73,8 @@
                             <h3 class="text-[#ccc] text-[3.5em]">Refonte logo Mercedes</h3>
                         </div>
                     </div>
-                    <div class="flex justify-center align-middle items-center w-full" data-aos="fade-top" data-aos-delay="300">
+                    <div class="flex justify-center align-middle items-center w-full" data-aos="fade-top"
+                        data-aos-delay="300">
                         <img src="../assets/Mercedes.svg" class="w-1/3" alt="">
                     </div>
 
@@ -81,17 +97,18 @@
                     <div class="flex mb-10 text-center" data-aos="fade-left" data-aos-delay="300">
                         <h3 class="text-[#ccc] text-[3.5em]">Renova</h3>
                     </div>
-                    <div class="flex justify-center align-middle items-center w-full" data-aos="fade-top" data-aos-delay="500">
+                    <div class="flex justify-center align-middle items-center w-full" data-aos="fade-top"
+                        data-aos-delay="500">
                         <img src="../assets/Renova.jpg" class="w-1/3" alt="">
                     </div>
-
                 </div>
-
-
-
             </div>
         </section>
-
+        <div class="text-white">
+            <ul>
+                <li v-for="projet in projets" :key="projet.id">{{ projet.name }}</li>
+            </ul>
+        </div>
     </div>
 </template>
 
@@ -104,13 +121,3 @@
     animation: -anim-gradient 10s linear infinite
 }
 </style>
-
-<script scoped>
-export default ({
-    methods: {
-
-    },
-
-})
-
-</script>
