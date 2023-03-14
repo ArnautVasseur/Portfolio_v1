@@ -8,10 +8,10 @@
 
 <template>
         <div class="container relative flex justify-center items-center flex-wrap gap-5 mt-32 lg:mt-0 z-0">
-            <div class="box border-4 border-white relative w-[200px] h-[300px] dark:bg-[#222] bg-[#fff] flex justify-center items-center duration-300 ease-in-out hover:border-[#111]">
+            <div class="box border-4 border-[#ccc] relative w-[200px] h-[300px] dark:bg-[#1a1a1a] bg-[#fff] flex justify-center items-center duration-300 ease-in-out hover:border-[#111]">
                 <div class="content relative flex justify-center items-center flex-col text-center gap-16 py-5 w-full h-full overflow-hidden  -[20px]">
                     <img class="w-28" :src="img" alt="" />
-                    <h4 class="text-3xl font-medium my-3 dark:text-white">{{ skill }}</h4>
+                    <h4 class="text-3xl font-medium my-3 dark:text-[#ccc]">{{ skill }}</h4>
                 </div>
             </div>
         </div>

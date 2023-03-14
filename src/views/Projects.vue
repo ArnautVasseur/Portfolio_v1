@@ -1,18 +1,4 @@
 <script setup>
-import { ref, onMounted } from 'vue'
-import { supabase } from '../lib/supabaseClient'
-
-const projets = ref([])
-
-async function getProjets() {
-    const { data } = await supabase.from('projets').select()
-    projets.value = data
-}
-
-onMounted(() => {
-    getProjets()
-})
-
 </script>
 
 <template>
@@ -24,8 +10,8 @@ onMounted(() => {
                 Projets</h2>
             <div class="Bar"></div>
         </div>
-        <section class="p-20 border-b-2 border-white pb-28">
-            <div class="w-full flex justify-center align-middle items-start gap-24">
+        <section class="p-20 border-b-2 border-[#aaa] pb-28">
+            <div class="w-full flex justify-between align-middle items-center gap-24">
                 <div class="w-1/2 flex flex-col justify-center align-middle items-center">
                     <div class="flex mb-10 text-center" data-aos="fade-right" data-aos-delay="100">
                         <h3 class="text-[#ccc] text-[3.5em]">Metalancolique</h3>
@@ -37,18 +23,24 @@ onMounted(() => {
 
                 </div>
                 <div class="w-1/2 p-16" data-aos="fade-left" data-aos-delay="500">
-                    <p class="text-white">Lorem ipsum</p>
-                    <a href="" class="text-white">Voir le site</a>
+                    <p class="text-[#aaa] text-xl mb-16">Projet universitaire réalisé en 2022, ce site consiste tout simplement à créer un site web informatif static 
+                        simple permettant une lecture d'information logique et pratique. Cela m'as aidé à comprendre comment fonctionne l'expérience utilisateur et 
+                        comment mettre en place une certaine quantité d'information de manière simple et compréhensible.</p>
+                    <a href="" class="text-[#aaa]">Voir le site</a>
                 </div>
-
-
+                
             </div>
+
         </section>
-        <section class="p-20 border-b-2 border-white py-28">
+        <section class="p-20 border-b-2 border-[#aaa] py-28">
             <div class="w-full flex justify-center align-middle items-start gap-24">
                 <div class="w-1/2 p-16" data-aos="fade-left" data-aos-delay="100">
-                    <p class="text-white">Lorem ipsum</p>
-                    <a href="" class="text-white">Voir le site</a>
+                    <p class="text-[#aaa] text-xl mb-16">Ce projet a été réalisé fin 2022. Un de mes projets favoris, du simple fait qu'il fut très satisfaisant de mise en place.
+                        Il m'as permit d'assimiler chartJS à mes projets pour améliorer la visualisation de données grâce à des graphiques et statistiques. Les données sont récupérées via une base de 
+                        données externe, permettant une plus grande versatilité de jeu de données.
+                        J'ai aussi appris à mettre en place une carte google maps ainsi que de modifier dynamiquement ses données et marqueurs.
+                    </p>
+                    <a href="" class="text-[#aaa]">Voir le site</a>
                 </div>
                 <div class="w-1/2 flex flex-col justify-center align-middle items-center">
                     <div class="flex text-center -mb-5" data-aos="fade-left" data-aos-delay="300">
@@ -61,11 +53,9 @@ onMounted(() => {
 
                 </div>
 
-
-
             </div>
         </section>
-        <section class="p-20 border-b-2 border-white py-28">
+        <section class="p-20 border-b-2 border-[#aaa] py-28">
             <div class="w-full flex justify-center align-middle items-start gap-24">
                 <div class="w-1/2 flex flex-col justify-center align-middle items-center">
                     <div class="flex gap-5">
@@ -80,18 +70,25 @@ onMounted(() => {
 
                 </div>
                 <div class="w-1/2 p-16" data-aos="fade-right" data-aos-delay="500">
-                    <p class="text-white">Lorem ipsum</p>
-                    <a href="" class="text-white">Voir le site</a>
+                    <p class="text-[#aaa] mb-16">Ce projet universitaire fut un projet d'étude de marque et de valeurs. Dans ce cas précis j'ai appris à réaliser
+                        des recherhes quant aux valeurs et représentations visuelles d'une marque, dans ce cas-ci: Mercedes. J'ai donc réalisé une refonte de logo
+                        de la marque en question et réalisé une charte graphique pour présenter cette refonte et l'expliquer.
+                    </p>
                 </div>
 
 
             </div>
         </section>
-        <section class="p-20 border-b-2 border-white pt-28">
+        <section class="p-20 border-b-2 border-[#aaa] pt-28">
             <div class="w-full flex justify-center align-middle items-start gap-24">
                 <div class="w-1/2 p-16" data-aos="fade-right" data-aos-delay="100">
-                    <p class="text-white">Lorem ipsum</p>
-                    <a href="" class="text-white">Voir le site</a>
+                    <p class="text-[#aaa] mb-16">Ce projet universitaire fut un projet collectif permettant de nous coordonner sur un projet commun et de mettre en place
+                        la base de ce que nous avions appris collectivement. Cela m'as appris à mettre en place une stratégie pour nous synchroniser, ne pas manquer de temps ainsi que
+                        de s'adapter avec les personnes travaillant avec moi.
+                        Par exemple avec la réalisation d'un tableau de tâches à réaliser, des réunions pour mettre en commun nos travaux ainsi que la séparation de ces travaux en fonction
+                        de nos compétences.
+                    </p>
+                    <a href="" class="text-[#aaa]">Voir le site</a>
                 </div>
                 <div class="w-1/2 flex flex-col justify-center align-middle items-center">
                     <div class="flex mb-10 text-center" data-aos="fade-left" data-aos-delay="300">
@@ -104,11 +101,6 @@ onMounted(() => {
                 </div>
             </div>
         </section>
-        <div class="text-white">
-            <ul>
-                <li v-for="projet in projets" :key="projet.id">{{ projet.name }}</li>
-            </ul>
-        </div>
     </div>
 </template>
 
