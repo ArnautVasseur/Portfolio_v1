@@ -45,41 +45,44 @@ onMounted(() => {
                     répondre à la demande du client de manière efficace.
                 </p>
             </div>
-            <hr class="h-[1px] border bg-white my-10" />
+            <hr class="h-[1px] border bg-white mt-10 mb-24" />
 
             <Titres titre="Projets" data-aos="fade-right" data-aos-delay="200" />
 
             <div class="text-white my-24">
                 <ul>
-                    <RouterLink to="/projects" v-for="projet in projets" :key="projet.id" class="projectline border-t border-b py-16 px-36 text-[#bbb] border-[#aaa] flex flex-row justify-between items-center hover:bg-[#171717]">
+                    <RouterLink to="/projects" v-for="projet in projets" :key="projet.id" class="projectline border-t border-b py-16 px-10 lg:px-36 text-[#bbb] border-[#aaa] flex flex-row justify-between items-center hover:bg-[#171717]">
                         <div>
                             <p class="text-4xl">{{ projet.name }}</p>
                             <p class="text-2xl text-[#888]">{{ projet.category }}</p>
                         </div>
-                        <p class="text-4xl">/{{ projet.created }}</p>
+                        <p class="text-4xl invisible w-0 lg:visible">/{{ projet.created }}</p>
                     </RouterLink>
                 </ul>
             </div>
 
             <section>
                 <Titres titre="Compétences" class="" />
-                <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(280px,280px))] justify-center my-24">
+                <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(280px,280px))] justify-center items-center gap-5 lg:gap-12 align-middle my-24">
                     <Skills skill="HTML5" img="src\assets\icons\html.jpg" data-aos="fade-up" data-aos-delay="200" />
                     <Skills skill="CSS3" img="src\assets\icons\css.jpg " data-aos="fade-up" data-aos-delay="300" />
-                    <Skills skill="JavaScript" img="src\assets\icons\javascript.jpg" data-aos="fade-up"
-                        data-aos-delay="400" />
+                    <Skills skill="JavaScript" img="src\assets\icons\javascript.jpg" data-aos="fade-up" data-aos-delay="400" />
                     <Skills skill="Tailwind" img="src\assets\icons\tailwind.jpg" data-aos="fade-up" data-aos-delay="500" />
                     <Skills skill="VueJS" img="src\assets\icons\vuejs.jpg" data-aos="fade-up" data-aos-delay="600" />
+                    <Skills skill="ChartJS" img="src\assets\icons\chartjs.jpg" data-aos="fade-up" data-aos-delay="700" />
                 </div>
                 <h2 class="text-[#ccc] text-[2em] xl:text-[2.5em] text-center" data-aos="fade-up" data-aos-delay="200">
                     Autres compétences</h2>
-                <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(300px,330px))] justify-center my-24">
-                    <Skills skill="Wordpress" img="src\assets\icons\wordpress.jpg" data-aos="fade-up"
-                        data-aos-delay="200" />
-                    <Skills skill="Illustrator" img="src\assets\icons\illustrator.jpg" data-aos="fade-up"
-                        data-aos-delay="300" />
+                <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(280px,280px))] justify-center items-center gap-5 lg:gap-12 align-middle my-24">
+                    <Skills skill="Wordpress" img="src\assets\icons\wordpress.jpg" data-aos="fade-up" data-aos-delay="200" />
+                    <Skills skill="Illustrator" img="src\assets\icons\illustrator.jpg" data-aos="fade-up" data-aos-delay="300" />
                     <Skills skill="Figma" img="src\assets\icons\figma.jpg" data-aos="fade-up" data-aos-delay="400" />
+                    <Skills skill="ThreeJS" img="src\assets\icons\threeJS.jpg" data-aos="fade-up" data-aos-delay="500" />
+                    <Skills skill="3DSMax" img="src\assets\icons\3DSMax.jpg" data-aos="fade-up" data-aos-delay="600" />
+                    <Skills skill="Blender" img="src\assets\icons\Blender.jpg" data-aos="fade-up" data-aos-delay="700" />
                 </div>
+                
+                        
             </section>
         </body>
     </div>
