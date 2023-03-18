@@ -24,9 +24,11 @@ onMounted(() => {
     <div>
         <div class="scroll-line z-10"></div>
         <div class="cursor"></div>
-        <header class="flex justify-center items-center align-middle py-12">
+        <header class="flex justify-around items-center align-middle py-12">
+            <a href="#projects" class="underline-animation text-white text-3xl inline-block relative">Projects</a>
             <Logo class="invisible sm:visible" />
             <LogoSmall class="absolute left-4 m-auto top-5 visible sm:invisible" />
+            <a href="#skills" class="underline-animation text-white text-3xl inline-block relative">Skills</a>
         </header>
 
         <body class="px-16">
@@ -49,9 +51,9 @@ onMounted(() => {
 
             <Titres titre="Projets" data-aos="fade-right" data-aos-delay="200" />
 
-            <div class="text-white my-24">
+            <div class="text-white my-24" id="projects">
                 <ul>
-                    <RouterLink to="/projects" v-for="projet in projets" :key="projet.id" class="projectline border-t border-b py-16 px-10 lg:px-36 text-[#bbb] border-[#aaa] flex flex-row justify-between items-center hover:bg-[#171717]">
+                    <RouterLink to="/projects" v-for="projet in projets" :key="projet.id" data-aos="fade-up" data-aos-delay="400" class="projectline border-t border-b py-16 px-10 lg:px-36 text-[#bbb] border-[#aaa] flex flex-row justify-between items-center">
                         <div>
                             <p class="text-4xl">{{ projet.name }}</p>
                             <p class="text-2xl text-[#888]">{{ projet.category }}</p>
@@ -61,7 +63,7 @@ onMounted(() => {
                 </ul>
             </div>
 
-            <section>
+            <section id="skills">
                 <Titres titre="Compétences" class="" />
                 <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(280px,280px))] justify-center items-center gap-5 lg:gap-12 align-middle my-24">
                     <Skills skill="HTML5" img="src\assets\icons\html.jpg" data-aos="fade-up" data-aos-delay="200" />
@@ -89,8 +91,25 @@ onMounted(() => {
 </template>
 
 <style scoped>
+.underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .projectline{
-    background: linear-gradient(to right, #1e1e1e 50%, #111 50%);
+    background: linear-gradient(to right, #222 50%, #111 50%);
     background-size: 200% 100%;
     background-position: right bottom;
     transition: all .5s ease-in-out;

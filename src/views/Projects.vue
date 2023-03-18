@@ -26,7 +26,7 @@
                     <p class="text-[#aaa] text-xl mb-16">Projet universitaire réalisé en 2022, ce site consiste tout simplement à créer un site web informatif static 
                         simple permettant une lecture d'information logique et pratique. Cela m'as aidé à comprendre comment fonctionne l'expérience utilisateur et 
                         comment mettre en place une certaine quantité d'information de manière simple et compréhensible.</p>
-                    <a href="" class="text-[#aaa]">Voir le site</a>
+                    <a href="" class="text-[#aaa] underline-animation inline-block relative">Voir le site</a>
                 </div>
             </div>
         </section>
@@ -39,7 +39,7 @@
                         données externe, permettant une plus grande versatilité de jeu de données.
                         J'ai aussi appris à mettre en place une carte google maps ainsi que de modifier dynamiquement ses données et marqueurs.
                     </p>
-                    <a href="" class="text-[#aaa]">Voir le site</a>
+                    <a href="" class="text-[#aaa] underline-animation inline-block relative">Voir le site</a>
                 </div>
                 <div class="w-full xl:w-1/2 flex flex-col justify-between align-middle items-center h-full">
                     <div class="flex text-center -mb-5" data-aos="fade-left" data-aos-delay="300">
@@ -73,6 +73,9 @@
                         des recherhes quant aux valeurs et représentations visuelles d'une marque, dans ce cas-ci: Mercedes. J'ai donc réalisé une refonte de logo
                         de la marque en question et réalisé une charte graphique pour présenter cette refonte et l'expliquer.
                     </p>
+                    <a href="src\assets\CharteGraphique_Logo_MercedesBenz_Arnaut_Vasseur.pdf" class="text-[#aaa] underline-animation inline-block relative" download>
+                        Télécharger la charte graphique
+                    </a>
                 </div>
 
 
@@ -87,7 +90,7 @@
                         Par exemple avec la réalisation d'un tableau de tâches à réaliser, des réunions pour mettre en commun nos travaux ainsi que la séparation de ces travaux en fonction
                         de nos compétences.
                     </p>
-                    <a href="" class="text-[#aaa]">Voir le site</a>
+                    <a href="" class="text-[#aaa] underline-animation inline-block relative">Voir le site</a>
                 </div>
                 <div class="w-full xl:w-1/2 flex flex-col justify-center align-middle items-center h-full">
                     <div class="flex mb-10 text-between" data-aos="fade-left" data-aos-delay="300">
@@ -110,5 +113,23 @@
     height: 10px;
     background: linear-gradient(45deg, hsl(203, 77%, 61%) 0%, 50%, hsl(248, 78%, 62%) 100%);
     animation: -anim-gradient 10s linear infinite
+}
+
+.underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: #ccc;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 </style>
