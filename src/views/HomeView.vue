@@ -24,7 +24,7 @@ onMounted(() => {
     <div>
         <div class="scroll-line z-10"></div>
         <div class="cursor"></div>
-        <header class="flex justify-around items-center align-middle py-12">
+        <header class="flex flex-col xl:flex-row justify-around items-center align-middle py-12">
             <a href="#projects" class="underline-animation text-white text-3xl inline-block relative">Projects</a>
             <Logo class="invisible sm:visible" />
             <LogoSmall class="absolute left-4 m-auto top-5 visible sm:invisible" />
