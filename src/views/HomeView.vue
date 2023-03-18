@@ -66,22 +66,22 @@ onMounted(() => {
             <section id="skills">
                 <Titres titre="Compétences" class="" />
                 <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(280px,280px))] justify-center items-center gap-5 lg:gap-12 align-middle my-24">
-                    <Skills skill="HTML5" img="src\assets\icons\html.jpg" data-aos="fade-up" data-aos-delay="200" />
-                    <Skills skill="CSS3" img="src\assets\icons\css.jpg " data-aos="fade-up" data-aos-delay="300" />
-                    <Skills skill="JavaScript" img="src\assets\icons\javascript.jpg" data-aos="fade-up" data-aos-delay="400" />
-                    <Skills skill="Tailwind" img="src\assets\icons\tailwind.jpg" data-aos="fade-up" data-aos-delay="500" />
-                    <Skills skill="VueJS" img="src\assets\icons\vuejs.jpg" data-aos="fade-up" data-aos-delay="600" />
-                    <Skills skill="ChartJS" img="src\assets\icons\chartjs.jpg" data-aos="fade-up" data-aos-delay="700" />
+                    <Skills skill="HTML5" img="src\assets\html.jpg" data-aos="fade-up" data-aos-delay="200" />
+                    <Skills skill="CSS3" img="src\assets\css.jpg " data-aos="fade-up" data-aos-delay="300" />
+                    <Skills skill="JavaScript" img="src\assets\javascript.jpg" data-aos="fade-up" data-aos-delay="400" />
+                    <Skills skill="Tailwind" img="src\assets\tailwind.jpg" data-aos="fade-up" data-aos-delay="500" />
+                    <Skills skill="VueJS" img="src\assets\vuejs.jpg" data-aos="fade-up" data-aos-delay="600" />
+                    <Skills skill="ChartJS" img="src\assets\chartjs.jpg" data-aos="fade-up" data-aos-delay="700" />
                 </div>
                 <h2 class="text-[#ccc] text-[2em] xl:text-[2.5em] text-center" data-aos="fade-up" data-aos-delay="200">
                     Autres compétences</h2>
                 <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(280px,280px))] justify-center items-center gap-5 lg:gap-12 align-middle my-24">
-                    <Skills skill="Wordpress" img="src\assets\icons\wordpress.jpg" data-aos="fade-up" data-aos-delay="200" />
-                    <Skills skill="Illustrator" img="src\assets\icons\illustrator.jpg" data-aos="fade-up" data-aos-delay="300" />
-                    <Skills skill="Figma" img="src\assets\icons\figma.jpg" data-aos="fade-up" data-aos-delay="400" />
-                    <Skills skill="ThreeJS" img="src\assets\icons\threeJS.jpg" data-aos="fade-up" data-aos-delay="500" />
-                    <Skills skill="3DSMax" img="src\assets\icons\3DSMax.jpg" data-aos="fade-up" data-aos-delay="600" />
-                    <Skills skill="Blender" img="src\assets\icons\Blender.jpg" data-aos="fade-up" data-aos-delay="700" />
+                    <Skills skill="Wordpress" img="src\assets\wordpress.jpg" data-aos="fade-up" data-aos-delay="200" />
+                    <Skills skill="Illustrator" img="src\assets\illustrator.jpg" data-aos="fade-up" data-aos-delay="300" />
+                    <Skills skill="Figma" img="src\assets\figma.jpg" data-aos="fade-up" data-aos-delay="400" />
+                    <Skills skill="ThreeJS" img="src\assets\threeJS.jpg" data-aos="fade-up" data-aos-delay="500" />
+                    <Skills skill="3DSMax" img="src\assets\3DSMax.jpg" data-aos="fade-up" data-aos-delay="600" />
+                    <Skills skill="Blender" img="src\assets\Blender.jpg" data-aos="fade-up" data-aos-delay="700" />
                 </div>
                 
                         
