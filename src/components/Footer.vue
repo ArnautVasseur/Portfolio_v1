@@ -7,7 +7,6 @@
         <div class="flex flex-col lg:flex-row justify-center items-center align-middle gap-20 xl:gap-40" data-aos="fade-up" data-aos-delay="300">
             <p class="text-[#aaa] text-[1.2em] xl:text-[3em]">vasseur.arnaut@gmail.com</p>
             <div class="flex justify-between align-middle items-center gap-24">
-                <a href="https://www.linkedin.com/in/arnaut-vasseur-b18900225/"><i class="fa-brands fa-linkedin-in text-white text-[4em]"></i></a>
                 <a href="https://github.com/ArnautVasseur"><i class="fa-brands fa-github text-white text-[4em]"></i></a>
             </div>
         </div>
