@@ -72,6 +72,9 @@ onMounted(() => {
                     <Skills skill="Tailwind" img="tailwind.jpg" data-aos="fade-up" data-aos-delay="500" />
                     <Skills skill="VueJS" img="vuejs.jpg" data-aos="fade-up" data-aos-delay="600" />
                     <Skills skill="ChartJS" img="chartjs.jpg" data-aos="fade-up" data-aos-delay="700" />
+                    <Skills skill="NodeJS" img="NodeJS.svg" data-aos="fade-up" data-aos-delay="800" />
+                    <Skills skill="SQL" img="SQL.svg" data-aos="fade-up" data-aos-delay="900" />
+                    <Skills skill="Supabase" img="supabase.svg" data-aos="fade-up" data-aos-delay="700" />
                 </div>
                 <h2 class="text-[#ccc] text-[2em] xl:text-[2.5em] text-center" data-aos="fade-up" data-aos-delay="200">
                     Autres compétences</h2>
