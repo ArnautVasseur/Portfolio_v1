@@ -11,6 +11,28 @@
             <div class="Bar"></div>
         </div>
 
+        <section class="p-20 border-b-2 border-[#aaa] py-28">
+            <div class="w-full flex flex-col-reverse xl:flex-row justify-between align-middle items-center gap-24">
+                <div class="w-full xl:w-1/2 p-16" data-aos="fade-left" data-aos-delay="100">
+                    <p class="text-[#aaa] text-xl mb-16">Ce projet a été réalisé fin 2022. Un de mes projets favoris, du simple fait qu'il fut très satisfaisant de mise en place.
+                        Il m'as permit d'assimiler chartJS à mes projets pour améliorer la visualisation de données grâce à des graphiques et statistiques. Les données sont récupérées via une base de 
+                        données externe, permettant une plus grande versatilité de jeu de données.
+                        J'ai aussi appris à mettre en place une carte google maps ainsi que de modifier dynamiquement ses données et marqueurs.
+                    </p>
+                    <a href="https://project-data-visualisation.netlify.app" class="text-[#aaa] underline-animation inline-block relative">Voir le site</a>
+                </div>
+                <div class="w-full xl:w-1/2 flex flex-col justify-between align-middle items-center h-full">
+                    <div class="flex text-center -mb-5" data-aos="fade-left" data-aos-delay="300">
+                        <h3 class="text-[#ccc] text-[3.5em]">Data-Visualisation</h3>
+                    </div>
+                    <div class="flex justify-center align-middle items-center w-full" data-aos="fade-up"
+                        data-aos-delay="500">
+                        <img src="../assets/BarChart.jpg" class="w-1/3" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <section class="p-20 border-b-2 border-[#aaa] pb-28">
             <div class="w-full flex flex-col xl:flex-row justify-between align-middle items-center gap-24">
                 <div class="w-full xl:w-1/2 flex flex-col justify-between align-middle items-center h-full">
@@ -26,34 +48,11 @@
                     <p class="text-[#aaa] text-xl mb-16">Projet universitaire réalisé en 2022, ce site consiste tout simplement à créer un site web informatif static 
                         simple permettant une lecture d'information logique et pratique. Cela m'as aidé à comprendre comment fonctionne l'expérience utilisateur et 
                         comment mettre en place une certaine quantité d'information de manière simple et compréhensible.</p>
-                    <a href="" class="text-[#aaa] underline-animation inline-block relative">Voir le site</a>
+                    <a href="https://metalancolique.netlify.app" class="text-[#aaa] underline-animation inline-block relative">Voir le site</a>
                 </div>
             </div>
         </section>
 
-        <section class="p-20 border-b-2 border-[#aaa] py-28">
-            <div class="w-full flex flex-col-reverse xl:flex-row justify-between align-middle items-center gap-24">
-                <div class="w-full xl:w-1/2 p-16" data-aos="fade-left" data-aos-delay="100">
-                    <p class="text-[#aaa] text-xl mb-16">Ce projet a été réalisé fin 2022. Un de mes projets favoris, du simple fait qu'il fut très satisfaisant de mise en place.
-                        Il m'as permit d'assimiler chartJS à mes projets pour améliorer la visualisation de données grâce à des graphiques et statistiques. Les données sont récupérées via une base de 
-                        données externe, permettant une plus grande versatilité de jeu de données.
-                        J'ai aussi appris à mettre en place une carte google maps ainsi que de modifier dynamiquement ses données et marqueurs.
-                    </p>
-                    <a href="" class="text-[#aaa] underline-animation inline-block relative">Voir le site</a>
-                </div>
-                <div class="w-full xl:w-1/2 flex flex-col justify-between align-middle items-center h-full">
-                    <div class="flex text-center -mb-5" data-aos="fade-left" data-aos-delay="300">
-                        <h3 class="text-[#ccc] text-[3.5em]">Data-Visualisation</h3>
-                    </div>
-                    <div class="flex justify-center align-middle items-center w-full" data-aos="fade-up"
-                        data-aos-delay="500">
-                        <img src="../assets/BarChart.jpg" class="w-1/3" alt="">
-                    </div>
-
-                </div>
-
-            </div>
-        </section>
         <section class="p-20 border-b-2 border-[#aaa] py-28">
             <div class="w-full flex flex-col xl:flex-row justify-between align-middle items-center gap-24">
                 <div class="w-full xl:w-1/2 flex flex-col justify-between align-middle items-center h-full">
@@ -90,7 +89,7 @@
                         Par exemple avec la réalisation d'un tableau de tâches à réaliser, des réunions pour mettre en commun nos travaux ainsi que la séparation de ces travaux en fonction
                         de nos compétences.
                     </p>
-                    <a href="" class="text-[#aaa] underline-animation inline-block relative">Voir le site</a>
+                    <a href="http://renova.arnaut.fr" class="text-[#aaa] underline-animation inline-block relative">Voir le site</a>
                 </div>
                 <div class="w-full xl:w-1/2 flex flex-col justify-center align-middle items-center h-full">
                     <div class="flex mb-10 text-between" data-aos="fade-left" data-aos-delay="300">

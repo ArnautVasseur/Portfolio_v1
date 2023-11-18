@@ -25,7 +25,7 @@ onMounted(() => {
         <div class="scroll-line z-10"></div>
         <div class="cursor"></div>
         <header class="flex flex-col xl:flex-row justify-around items-center align-middle py-12">
-            <a href="#projects" class="underline-animation text-white text-3xl inline-block relative">Projects</a>
+            <RouterLink to="/projects" class="underline-animation text-white text-3xl inline-block relative">Projects</RouterLink>
             <Logo class="invisible sm:visible" />
             <LogoSmall class="absolute left-4 m-auto top-5 visible sm:invisible" />
             <a href="#skills" class="underline-animation text-white text-3xl inline-block relative">Skills</a>
