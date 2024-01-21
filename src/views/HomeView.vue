@@ -28,7 +28,7 @@ onMounted(() => {
             <RouterLink to="/projects" class="underline-animation text-white text-3xl inline-block relative">Projects</RouterLink>
             <Logo class="invisible sm:visible" />
             <LogoSmall class="absolute left-4 m-auto top-5 visible sm:invisible" />
-            <a href="/MMI" class="underline-animation text-white text-3xl inline-block relative">MMI Projects</a>
+            <RouterLink to="/MMI" class="underline-animation text-white text-3xl inline-block relative">MMI Projects</RouterLink>
         </header>
 
         <body class="px-16">
